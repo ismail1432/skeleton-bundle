@@ -1,0 +1,17 @@
+# Configuration loaded for your functional tests
+framework:
+  secret: ThisIsSecret
+  test: true
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  Eniams\FooBundle\Tests\App\src\:
+    resource: '%kernel.project_dir%/src'
+
+foo_lib:
+  client_id: '123'
+  client_secret: '456'
