@@ -103,7 +103,7 @@ $ make all
 ## Publishing the bundle to be used by other developers through composer
 
 1- Create the release on the repository
-- Go to https://github.com/<pseudo>/<the-lib>/releases/new
+- Go to https://github.com/[pseudo]/[the-lib]/releases/new
 - "Choose a tag" read carefully the Tagging suggestions.
 
 2- Create the package on packagist
